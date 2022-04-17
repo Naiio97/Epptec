@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import axios from "axios";
 import ThePosts from '../../components/posts/ThePosts'
+import ThePost from '../../components/post/ThePost'
 
 const MainPage = () => {
     const [posts, setPosts] = useState([])

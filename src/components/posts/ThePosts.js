@@ -8,6 +8,7 @@ const ThePosts = ({posts}) => {
         {posts.map((post) => (
           <ThePost post={post}/>
         ))}
+        
       </div>
     </div>
   )

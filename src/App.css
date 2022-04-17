@@ -7,6 +7,6 @@
 
 .App {
   max-width: 1000px;
-  border: 1px solid black;
+  border: 2px solid rgba(57, 57, 57, 1);
   margin: 0 auto;
 }
