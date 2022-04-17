@@ -23,9 +23,9 @@ const TheSinglePost = () => {
   return (
     <div className="the-single-post">
       <Link to={"/"}> Back to main page</Link>
-      <h1>{single.title}</h1>
+      <h1 className="single-title">{single.title}</h1>
       <Link to={"/"}> {author.name}</Link>
-      <p>
+      <p className="single-text">
         Whole text <br />
         {single.body}
       </p>
