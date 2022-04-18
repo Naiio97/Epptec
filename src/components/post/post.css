@@ -1,32 +1,31 @@
 .the-post {
-    border: 2px solid rgba(57, 57, 57, 1);
-    margin: 15px 30px;
-    padding: 10px;
+  border: 2px solid rgba(57, 57, 57, 1);
+  margin: 15px 30px;
+  padding: 10px;
 }
 
 .post-title {
-    font-size: 1.5rem; 
-    color:rgba(58, 58, 58, 1);
-    margin-bottom: 3px;
+  font-size: 1.5rem;
+  color: rgba(58, 58, 58, 1);
+  margin-bottom: 3px;
 }
 
 p {
-    margin-top: 5px;
-    font-size: 1.2rem;
+  margin-top: 5px;
+  font-size: 1.2rem;
 }
 
 a {
-    color:rgba(93, 93, 93, 1);
-    font-style: italic;
-    font-size: 1.1rem;
+  color: rgba(93, 93, 93, 1);
+  font-style: italic;
+  font-size: 1.1rem;
 }
 
-.footer-links{
-    margin-top: 15px;
+.footer-links {
+  margin-top: 15px;
 }
 
 .right-link {
-    float: right;
-    margin-right: 50px;
+  float: right;
+  margin-right: 50px;
 }
-

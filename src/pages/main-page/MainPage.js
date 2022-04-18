@@ -5,17 +5,15 @@ import ThePosts from "../../components/posts/ThePosts";
 const MainPage = () => {
   const [posts, setPosts] = useState([]);
   const [authors, setAuthors] = useState([]);
-  
+
   useEffect(() => {
     axios("https://jsonplaceholder.typicode.com/posts")
       .then((res) => setPosts(res.data))
       .catch((err) => console.error(err));
 
-      axios("https://jsonplaceholder.typicode.com/users")
+    axios("https://jsonplaceholder.typicode.com/users")
       .then((res) => setAuthors(res.data))
       .catch((err) => console.error(err));
-
-
   }, []);
 
   return (

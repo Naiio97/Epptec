@@ -1,10 +1,9 @@
-import React from 'react'
-import {Routes, Route} from 'react-router-dom'
-import MainPage from './pages/main-page/MainPage'
-import DetailPost from './pages/detail-post/DetailPost'
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import MainPage from "./pages/main-page/MainPage";
+import DetailPost from "./pages/detail-post/DetailPost";
 
-import './App.css';
-
+import "./App.css";
 
 function App() {
   return (
