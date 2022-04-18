@@ -13,3 +13,10 @@
     margin-top: 10px;
     color:rgba(93, 93, 93, 1);
 }
+
+.com-title {
+    margin-top: 20px;
+    margin-bottom: 3px;
+    font-size: 1.9rem; 
+    color:rgba(58, 58, 58, 1);
+}

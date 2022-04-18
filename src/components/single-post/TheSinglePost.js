@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 import { Link, useLocation } from "react-router-dom";
-import '../single-post/singlePost.css'
+import "../single-post/singlePost.css";
 
 const TheSinglePost = () => {
   const [single, setSingle] = useState({});
@@ -15,7 +15,7 @@ const TheSinglePost = () => {
       .then((res) => setSingle(res.data))
       .catch((err) => console.error(err));
 
-      axios("https://jsonplaceholder.typicode.com/users/" + path)
+    axios("https://jsonplaceholder.typicode.com/users/" + path)
       .then((res) => setAuthor(res.data))
       .catch((err) => console.error(err));
   }, [path]);
@@ -29,6 +29,7 @@ const TheSinglePost = () => {
         Whole text <br />
         {single.body}
       </p>
+      <h2 className="com-title">Comments</h2>
     </div>
   );
 };
